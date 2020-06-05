@@ -36,7 +36,7 @@ library(readr)
 codebook_data <- read_csv(here("raw-data",  "2019.csv"))
 
 ### I have added a name to this dataset as metadata
-metadata(codebook_data)$name <- "World Happiness reports data"
+metadata(codebook_data)$name <- "World Happiness reports data for 2019"
 
 ### practice!
 ### add temporal coverage metadata to this codebook
